@@ -1,0 +1,7 @@
+﻿<a ng-click="GetList()">Get data</a>
+<span ng-show="IsLoading" ng-cloak>Loading...</span>
+<ul>
+    <li ng-repeat="item in Customers">
+        <span ng-bind="item.Name"></span>
+    </li>
+</ul>
