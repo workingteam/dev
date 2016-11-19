@@ -13,6 +13,7 @@
                 {
                     $scope.Customers = result.data;
                     $scope.IsLoading = false;
+
                 });
             }
         }
